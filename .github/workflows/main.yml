@@ -43,6 +43,6 @@ jobs:
           # Path to the Dockerfile
           file: ./src/Dockerfile
           push: true
-          tags: 
+          tags: |
             joao0212/api-produto:latest
             joao0212/api-produto:v${{github.run_number}}
