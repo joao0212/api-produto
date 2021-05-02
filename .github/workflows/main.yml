@@ -45,4 +45,4 @@ jobs:
           push: true
           tags: 
             joao0212/api-produto:latest
-            joao0212/api-produto:${{github.run_number}}
+            joao0212/api-produto:v${{github.run_number}}
